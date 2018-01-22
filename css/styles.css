@@ -43,10 +43,6 @@ header {
     background: black;
     padding-top: 20px;
 }
-
-
-}
-
 header ul {
     float: right;
     margin-top: 10px;
@@ -59,15 +55,12 @@ header li {
     display: inline-block;
     text-decoration: none;
     margin-left: 50px;
-
-
 }
 header a {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-
 }
 header a:hover,
 header a:focus,
@@ -76,12 +69,14 @@ header a:active, {
     color: white;
     text-decoration: none;
 }
-
 header .logo {
     background-image: url('../img/logo.svg');
     height: 40px;
     width: 40px;
     background-size: 40px;
+
+}
+.desktop-nav .logo {
     float: left;
 }
 .mobile-nav {
@@ -91,8 +86,20 @@ header .logo {
 }
 .mobile-nav .logo {
     display: inline-block;
-    margin-right:20px;
+}
+.mobile-nav .hamburger-container,
+.mobile-nav .search-container {
+    width: 40px;
+    display: inline-block;
+    background: ;
+    margin-left: -4px;
+}
 
+.mobile-nav .logo-container{
+    display: inline-block;
+    margin-left: -4px;
+    width: calc(100 - 80px);
+    text-align: center;
 }
 
 @media(max-width: 768px) {
@@ -102,10 +109,12 @@ header .logo {
     .desktop-nav {
         display: none;
     }
-    }
+.mobile-nav button{
+    background: transparent;
+    border: none;
+    color: white;
 
 }
-
 .hero {
     height: 400px;
     background: hotpink;
