@@ -5,7 +5,13 @@ white: #ffffff */
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Nunito Sans', sans-serif; */
 
-/* FONT STYLES  */
+
+
+
+
+/* * * * * * GENERAL STYLES   * * * */
+
+
 
 
 h1, h2, h3 {
@@ -22,7 +28,7 @@ h3 {
     font-size: 36px;
 }
 p {
-    font-family: sand-serif;
+    font-family: sans-serif;
 }
 
 button {
@@ -30,17 +36,29 @@ button {
      font-size: 12px;
 }
 
-/* SECTION CONTAINERS */
+/* header Styles */
 
-.header {
+header {
     height: 80px;
     background: #161616;
+    padding-top: 20px;
 }
+
+header.logo {
+    background-image: url('./img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+}
+
 
 .hero {
     height: 400px;
     background: hotpink;
 }
+
+
+
 
 .product-lineup-container {
     height: 400px;
@@ -64,5 +82,5 @@ button {
 
 .footer {
     height: 400px;
-    background: lightblue; 
+    background: lightblue;
 }
