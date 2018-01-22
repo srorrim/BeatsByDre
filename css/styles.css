@@ -40,11 +40,11 @@ button {
 
 header {
     height: 80px;
-    background: #161616;
+    background: white;
     padding-top: 20px;
 }
 
-header.logo {
+header .logo {
     background-image: url('../img/logo.svg');
     height: 40px;
     width: 40px;
