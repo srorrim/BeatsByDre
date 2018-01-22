@@ -40,8 +40,29 @@ button {
 
 header {
     height: 80px;
-    background: white;
+    background: black;
     padding-top: 20px;
+}
+
+header ul {
+    background:black;
+    float: right;
+    margin-top: 10px;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+
+
+}
+header a {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+;
 }
 
 header .logo {
@@ -49,6 +70,8 @@ header .logo {
     height: 40px;
     width: 40px;
     background-size: 40px;
+    float: left;
+
 }
 
 
