@@ -5,6 +5,9 @@ white: #ffffff */
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Nunito Sans', sans-serif; */
 
+/* FONT STYLES  */
+
+
 h1, h2, h3 {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -25,4 +28,41 @@ p {
 button {
      font-family: 'Oswald', sans-serif;
      font-size: 12px;
+}
+
+/* SECTION CONTAINERS */
+
+.header {
+    height: 80px;
+    background: #161616;
+}
+
+.hero {
+    height: 400px;
+    background: hotpink;
+}
+
+.product-lineup-container {
+    height: 400px;
+    background: teal;
+}
+
+.featured-product-container {
+    height: 400px;
+    background: #333;
+}
+
+.product-support-container {
+    height: 400px;
+    background: darkred;
+}
+
+.subscription-container {
+    height: 400px;
+    background: steelblue;
+}
+
+.footer {
+    height: 400px;
+    background: lightblue; 
 }
