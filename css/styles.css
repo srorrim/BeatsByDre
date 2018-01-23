@@ -122,7 +122,12 @@ header .logo {
     background-image: url('../img/hero-large.jpg');
     background-size: cover;
     color: white;
+    text-align: center;
 }
+.hero-text-container {
+    padding-top: 200px;
+}
+
 
 
 
