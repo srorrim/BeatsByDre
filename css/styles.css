@@ -54,7 +54,13 @@ p {
     background: transparent;
     color: white;
 }
+.logo {
+    background-image: url('../img/logo.svg');
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
 
+}
 
 
 
@@ -91,13 +97,7 @@ header {
     color: white;
     text-decoration: none;
 }
-header .logo {
-    background-image: url('../img/logo.svg');
-    height: 40px;
-    width: 40px;
-    background-size: 40px;
 
-}
 .desktop-nav .logo {
     float: left;
 }
@@ -191,11 +191,14 @@ header .logo {
 
 /* Subsxcription  */
 .subscription-container {
-    height: 400px;
+    height: 100px;
     background: steelblue;
 }
 /* Footer */
 .footer {
+    height: 500px;
+    background: white;
+}
+.row {
     height: 400px;
-    background: lightblue;
 }
