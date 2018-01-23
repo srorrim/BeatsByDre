@@ -114,12 +114,18 @@ header .logo {
     color: white;
 
 }
-
+}
 /* hero Styles */
 .hero {
-    height: 400px;
-    background: hotpink;
+    height: calc(100vh - 100px);
+    background: #999;
+    background-image: url('../img/hero-large.jpg');
+    background-size: cover;
 }
+
+
+
+
 
 
 
