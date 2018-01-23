@@ -67,7 +67,7 @@ header {
     padding-top: 20px;
 }
 /* desktop-nav */
-.desktop-nav ul {
+.desktop-nav ul{
     float: right;
     margin-top: 10px;
     width: calc(100% - 60px);
