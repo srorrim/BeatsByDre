@@ -30,7 +30,6 @@ h3 {
 p {
     font-family: sans-serif;
 }
-
 button {
      font-family: 'Oswald', sans-serif;
      font-size: 12px;
@@ -43,28 +42,28 @@ header {
     background: black;
     padding-top: 20px;
 }
-header ul {
+/* desktop-nav */
+.desktop-nav ul {
     float: right;
     margin-top: 10px;
     padding: 0;
     width: calc(100% - 60px);
     text-align: right;
 }
-
-header li {
+.desktop-nav li {
     display: inline-block;
     text-decoration: none;
     margin-left: 50px;
 }
-header a {
+.desktop-nav a,
+.desktop-nav a:visited {
     color: white;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
-}
-header a:hover,
-header a:focus,
-header a:active, {
+.desktop-nav a:hover,
+.desktop- a:focus,
+.desktop- a:active, {
     opacity: 0.9;
     color: white;
     text-decoration: none;
@@ -89,17 +88,17 @@ header .logo {
 }
 .mobile-nav .hamburger-container,
 .mobile-nav .search-container {
+    vertical-align: top;
     width: 40px;
     display: inline-block;
-    background: ;
     margin-left: -4px;
+    margin-top: 8px;
 }
 
 .mobile-nav .logo-container{
     display: inline-block;
     margin-left: -4px;
-    width: calc(100 - 80px);
-    text-align: center;
+    width: calc(100% - 80px);
 }
 
 @media(max-width: 768px) {
@@ -115,6 +114,8 @@ header .logo {
     color: white;
 
 }
+
+/* hero Styles */
 .hero {
     height: 400px;
     background: hotpink;
@@ -122,27 +123,30 @@ header .logo {
 
 
 
-
+/* Product Lineup */
 .product-lineup-container {
     height: 400px;
     background: teal;
 }
+/* Featured product  */
 
 .featured-product-container {
     height: 400px;
     background: #333;
 }
 
+/* Product Support */
 .product-support-container {
     height: 400px;
     background: darkred;
 }
 
+/* Subsxcription  */
 .subscription-container {
     height: 400px;
     background: steelblue;
 }
-
+/* Footer */
 .footer {
     height: 400px;
     background: lightblue;
