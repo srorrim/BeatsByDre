@@ -47,7 +47,6 @@ header {
 .desktop-nav ul {
     float: right;
     margin-top: 10px;
-    padding: 0;
     width: calc(100% - 60px);
     text-align: right;
 }
@@ -82,7 +81,6 @@ header .logo {
 .mobile-nav {
     display:none;
     text-align: center;
-
 }
 .mobile-nav .logo {
     display: inline-block;
