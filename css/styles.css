@@ -31,10 +31,28 @@ h3 {
 p {
     font-family: sans-serif;
 }
-button {
+.button {
      font-family: 'Oswald', sans-serif;
      font-size: 12px;
+     background: #e01e3c;
+     color: white;
+     padding: 10px 30px;
+     text-transform: uppercase;
+     border-radius: 20px;
+     margin: 10px;
 }
+
+/* Buttons */
+.red-button,
+.light-button,
+.dark-button {
+
+}
+
+
+
+
+
 
 /* header Styles */
 
@@ -121,14 +139,19 @@ header .logo {
     background: #999;
     background-image: url('../img/hero-large.jpg');
     background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
 }
 .hero-text-container {
-    padding-top: 200px;
+    padding-top: 60vh;
 }
-
-
+.hero-text-container h1 {
+    margin-bottom: 20px;
+}
+.hero-text-container p {
+    margin-bottom: 30px;
+}
 
 
 
