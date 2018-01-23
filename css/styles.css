@@ -20,6 +20,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 70px;
+    font-weight: 900;
 }
 h2 {
     font-size: 50px;
@@ -112,15 +113,17 @@ header .logo {
     background: transparent;
     border: none;
     color: white;
+    }
+}
 
-}
-}
+
 /* hero Styles */
 .hero {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     background: #999;
     background-image: url('../img/hero-large.jpg');
     background-size: cover;
+    color: white;
 }
 
 
